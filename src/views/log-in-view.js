@@ -10,13 +10,17 @@ export default () => {
         <br>
         <input type="submit" id="submit" class="buttonsForm" value="Log In">
       </form>
-        <p>o</p>
+        <br>
+        <p class="text">o</p>
+        <br>
         <button type="button" id="gmailLogIn">Log In with gmail</button>
+        <br>
         <h3>Si no tienes cuenta, crea una <span><a href="#/sign-up">aquí</a></span></h3>
     </div>
   </div>  `;
 
   const divElement = document.createElement('div');
+  divElement.setAttribute('class', 'backgroundImage');
   divElement.innerHTML = viewLogin;
 
   return divElement;

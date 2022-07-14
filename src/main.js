@@ -7,5 +7,5 @@ myFunction();
 const init = () => window.addEventListener('hashchange', () => changeView(window.location.hash));
 window.addEventListener('load', init);
 
-const submitButton = document.getElementById('submit');
+const submitButton = document.querySelector('#submitSingUp');
 submitButton.addEventListener('click', signUp);

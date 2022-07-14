@@ -21,8 +21,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.backgroundImage{
     background-image: url(../images/Background.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .view{
@@ -37,6 +41,8 @@
     font-size: 35px;
     width: 260px;
     text-align: center;
+    color: rgba(34, 34, 34, 0.78);
+    padding: 40px;
 }
 
 .emailPassword{
@@ -48,6 +54,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 0.875rem;
     color: #BABFA3;
+    text-align: center;
 }
 
 .buttonsForm{
@@ -58,4 +65,49 @@
     background-color: #BABFA3;
     color: white;    
     border: solid #BABFA3;
+}
+
+.signUpResgister{
+    background-color: rgba(255, 255, 255, 0.22);
+    border: 1px solid #90C9BB;
+    border-radius: 5px;
+    height: 1.875rem;
+    width: 15.625rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color: #90C9BB;
+    text-align: center;
+}
+
+.containerForm > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color:#90C9BB;
+}
+
+#submitSingUp{
+    background-color: #90C9BB;;
+    border: solid #90C9BB;
+}
+
+.view > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color:#BABFA3;
+}
+
+.text{
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    color: #BABFA3;
+}
+
+#gmailLogIn{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    border: 2px solid #BABFA3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #BABFA3;
 }
