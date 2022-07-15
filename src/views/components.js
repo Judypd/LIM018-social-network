@@ -1,9 +1,9 @@
 import signUp from './sign-up-view.js';
 import logIn from './log-in-view.js';
-import welcomeView from './welcome-view.js';
+// import welcomeView from './welcome-view.js';
 
 const components = {
-  Welcome: welcomeView,
+  // Welcome: welcomeView,
   SignUp: signUp,
   LogIn: logIn,
 };

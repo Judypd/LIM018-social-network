@@ -20,7 +20,7 @@ export default () => {
   </div>  `;
 
   const divElement = document.createElement('div');
-  divElement.setAttribute('class', 'backgroundImage');
+  // divElement.setAttribute('class', 'backgroundImage');
   divElement.innerHTML = viewLogin;
 
   return divElement;
