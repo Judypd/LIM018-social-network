@@ -1,24 +1,13 @@
 // aqui exportaras las funciones que necesites
-import { signUpWithEmail } from '../firebase/firebaseConfig.js';
-
-export const myFunction = () => {
-  // aqui tu codigo
+import { signUpWithEmail, logInWithEmail } from '../firebase/firebaseConfig.js';
+// , addCollection
+export const registerWithEmail = (email, password) => {
   // eslint-disable-next-line no-console
-  console.log('Hola mundo!');
+  console.log(email, password);
+  return signUpWithEmail(email, password);
 };
 
-export const signUp = () => {
-  const userEmail = document.getElementById('email').value;
-  const userPassword = document.getElementById('userPassword').value;
-  // eslint-disable-next-line no-console
-  console.log(userEmail, userPassword);
-  signUpWithEmail(userEmail, userPassword)
-    .then((result) => {
-      // eslint-disable-next-line no-console
-      console.log(result);
-    })
-    .catch((error) => {
-      // eslint-disable-next-line no-console
-      console.log(error);
-    });
+export const enterWithEmail = (email, password) => {
+  console.log(email, password);
+  return logInWithEmail(email, password);
 };
